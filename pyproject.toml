@@ -1,0 +1,21 @@
+[project]
+name = "frame-interpolation"
+version = "0.1.0"
+description = "Frame interpolation using deep learning"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "tensorflow==2.8.0",
+    "tensorflow-addons==0.16.1",
+    "numpy==1.23.5",
+    "tqdm==4.64.1",
+    "protobuf<3.20",
+    "cog==0.16.8",
+]
+
+dev-dependencies = [
+    "pytest==8.4.2",
+]
+
+[tool.pytest.ini_options]
+addopts = "--ignore=eval/interpolator_test.py"

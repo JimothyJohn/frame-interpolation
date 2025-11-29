@@ -1,0 +1,14 @@
+*.sh
+*.mp4
+*.gif
+photos/
+__pycache__/
+datasets/
+losses/
+models/
+tests/
+scripts/
+training/
+*.log
+.pytest_cache
+.venv

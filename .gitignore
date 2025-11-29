@@ -1,2 +1,12 @@
 *.mp4
 pretrained_models/
+!pretrained_models/README.md
+.cog
+.env
+__pycache__/
+*.log
+*.sh
+.pytest_cache
+.venv
+tests/dummy_videos/
+!tests/dummy_videos/README.md
